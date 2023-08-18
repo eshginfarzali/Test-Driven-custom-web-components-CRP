@@ -15,7 +15,7 @@ module.exports = {
 		clean: true,
 	},
 	devServer: {
-		// hot: true, // Sıcak modül değiştirme özelliğini kullanmak isterseniz ekle
+		// hot: true, // If you want to use the hot module replacement feature, add
 		// open: true,
 		proxy: {
 			"/api": {
